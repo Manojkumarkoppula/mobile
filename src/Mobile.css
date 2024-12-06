@@ -1,0 +1,61 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    max-width: 900px;
+  }
+  
+  #image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #image img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  #information {
+    flex: 3;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #information h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #212121;
+  }
+  
+  #information ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #757575;
+    font-size: 0.9rem;
+  }
+  
+  #price {
+    flex: 1;
+    text-align: right;
+  }
+  
+  #price p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #388e3c;
+  }
+  
+  #price img {
+    width: 80px;
+    margin-top: 10px;
+  }
+  
